@@ -2,11 +2,12 @@
 var http = require('http');
 
 // Create a HTTP server
-// request comes from the client
-// response goes to the client
+// - request comes from the client
+// - response goes to the client
 http.createServer(function (request, response) {
 
-  // Send the HTTP status code "200 - ok" to the request
+  // Send the HTTP status code "200 - ok" to the request 
+  // and set the content type to "text/plain"
   response.writeHead(200, {'Content-Type': 'text/plain'});
 
   // Tell the server that everything has been send to the client
