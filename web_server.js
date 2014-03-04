@@ -17,5 +17,5 @@ http.createServer(function (request, response) {
 // Accept connections on port & IP
 }).listen(1337, '127.0.0.1');
 
-// Tell the user what is happening
+// Tell the user what’s happening right now
 console.log('Server running at http://127.0.0.1:1337/');
